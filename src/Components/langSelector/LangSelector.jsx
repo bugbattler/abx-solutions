@@ -37,7 +37,7 @@ function LangSelector(props) {
       <select name="" id="" className="lang-selector"
       onChange={(e) => props.setLang(e.target.value)}
       >
-        <option value="" >{t("Select Langueges")}</option>
+        <option value="" >{t("Select Languages")}</option>
         <option key={"en"} value="en"  className="en" data-content='<span class="flag-icon flag-icon-us"></span> English'>English </option>
         <option key={"ch"} value="ch" className="chi">{t("China")}</option>
       </select>
